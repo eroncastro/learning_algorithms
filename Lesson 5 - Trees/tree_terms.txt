@@ -1,0 +1,15 @@
+Tree - levels
+
+Node - parent child relationship
+
+Leaves - nodes without any child
+Connections - edge
+
+Height of a node - number of edges between it and the furthest leaf on the tree
+
+Height of a tree = Height of the root node
+
+Depth of a node - number of edges through the root
+
+DFS - Depth-first search - visit all children first
+Breadth-first search - visit all nodes on the same level first
