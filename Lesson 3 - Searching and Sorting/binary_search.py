@@ -1,6 +1,6 @@
 def binary_search(input_list, value):
     min_index = 0
-    max_index = len(input_list)
+    max_index = len(input_list)-1
     if not max_index:
         return -1
 
