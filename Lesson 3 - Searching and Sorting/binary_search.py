@@ -15,7 +15,7 @@ def binary_search(input_list, value):
         if input_list[index] < value:
             min_index = index + 1
         else:
-            max_index = index
+            max_index = index - 1
 
 
 def recursive_binary_search(alist, value, low_index=None, high_index=None):
@@ -35,6 +35,6 @@ def recursive_binary_search(alist, value, low_index=None, high_index=None):
     if alist[m] < value:
         low_index = m + 1
     else:
-        high_index = m
+        high_index = m - 1
 
     return recursive_binary_search(alist, value, low_index, high_index)
