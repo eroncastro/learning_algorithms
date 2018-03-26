@@ -24,7 +24,6 @@ class IslandsCounter:
         while queue:
             i, j = queue.pop(0)
             matrix[i][j] = -1
-            pprint(matrix)
 
             pos_inc = [(1, 0), (-1, 0), (0, 1), (0, -1)]
 
